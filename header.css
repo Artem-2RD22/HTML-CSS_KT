@@ -1,0 +1,56 @@
+#header {
+  position: relative;
+  color: white;
+  height: 810px;
+}
+
+.header-box video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.header-box {
+  max-width: 800px;
+  margin: auto;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.header-box img {
+  max-width: 100%;
+  height: auto;
+  margin: 100px auto 0;
+}
+
+.header-box h1 {
+  font-family: 'Playfair Display', serif;
+
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin: 120px auto 0;
+}
+
+.header-box p {
+  font-size: 1em;
+  margin: 20px auto 0;
+}
+
+.icon {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 115px auto 0;
+}
+
+.icon svg {
+  width: 30px;
+  height: 30px;
+  fill: #000;
+}

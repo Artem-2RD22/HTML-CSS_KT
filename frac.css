@@ -1,0 +1,76 @@
+#frac {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .layout-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .layout-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-1,
+  .image-2,
+  .image-3,
+  .image-4 {
+    height: 100%; 
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 1.5s ease; 
+  }
+  
+  .image-1 {
+    background-image: url('images/restaurant-love-romantic-dinner.jpg'); 
+    background-position-y: 20%!important;
+  }
+  
+  .image-2 .video-background{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .image-2 .video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 100%;
+    height: auto;
+}
+  
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-3,
+  .image-4 {
+    flex: 50%;
+    height: 353.5px; 
+  }
+  
+  .image-3 {
+    background-image: url('images/pexels-photo-2762942.jpeg'); 
+
+  }
+  
+  .image-4 {
+    background-image: url('images/pexels-marta-dzedyshko-2067396.jpg'); 
+  }
+
+  .image-1:hover, .image-3:hover, .image-4:hover {
+    background-size: 120%;
+  }
